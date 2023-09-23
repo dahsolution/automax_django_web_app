@@ -37,8 +37,8 @@ DEBUG = False
 if env('DJANGOAPPMODE') == 'Debug' else False
 print(f'Application running in debug mode: {DEBUG}')
 
-ALLOWED_HOSTS = ['automax-django-udemy.herokuapp.com', '127.0.0.1']
-
+# ALLOWED_HOSTS = ['automax-django-udemy.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app','now.sh','127.0.0.1','localhost']
 
 # Application definition
 
